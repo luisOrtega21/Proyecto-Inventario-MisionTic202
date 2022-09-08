@@ -10,40 +10,106 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-2 bg-dark vh-100">
-                <nav id="sidebarMenu" class="sidebar text-white">
-                    <div class="sidebar-header text-white">
-                        <h2>Sistema de Inventario
-                        </h2>
+        <div class="row flex-nowrap">
+            <!-- SIDEBAR -->
+            <div class="col-auto bg-dark vh-100 text-white">
+                <div id="sidebarMenu" class="sidebar d-flex flex-column text-white">
+                    <div class="sidebar-header text-center pt-3 d-inline-flex align-items-center">
+                        <span class=" fw-bolder d-none d-md-inline pe-lg-2">SISTEMA DE INVENTARIOS</span>
+                        <img src="./images/inventario5.png" class="img-fluid" alt="inventario">
                     </div>
                     <hr>
-                    <ul class="list-unstyled components">
+                    <ul id="menu" class="navbar-nav flex-column justify-content-center align-items-center align-items-md-start ps-lg-3">
                         <li class="nav-item active">
                             <a href="#" class="nav-link text-white">
-                                <img src="./svg/home.svg" class= "iconos" alt="inicio">Inicio
+                                <img src="./images/home.svg" class= "pe-lg-3 iconos" alt="inicio">
+                                <span class="d-none d-md-inline">Inicio</span> 
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text-white">
-                                <img src="" class= "iconos" alt="productos">Productos
+                                <img src="./images/productos.svg" class= "pe-lg-3 iconos" alt="productos">
+                                <span class="d-none d-md-inline">Productos</span> 
                             </a>
                         </li>
                         <li class="nav-item ">
                             <a href="#" class="nav-link text-white">
-                                <img src="./svg/usuarios.svg" class= "iconos" alt="usuarios">Usuarios
+                                <img src="./images/usuarios.svg" class= "pe-lg-3 iconos" alt="usuarios">
+                                <span class="d-none d-md-inline">Usuarios</span>
                             </a>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
 
-            <div class="col h-25 p-0 navbarTop">
-                <nav class="navbar navbar-light">
-                    <div class="container justify-content-end ">
-                        <a class="navbar-brand text-dark" href="#">Admin</a>
+            <div class="col h-25 p-0">
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-light navbarTop">
+                    <div class="container justify-content-end">
+                        <a class="navbar-brand text-dark" href="#"><span class="d-none d-md-inline">Admin</span></a>
                     </div>
                 </nav>
+
+                <main>
+                    <h1 class="fw-bold text-center pt-4">Bienvenidos al Sistema de Inventarios</h1>
+                    <div class="container mt-4">
+                        <p>Esta plataforma ha sido diseñada con el fin de que cada almacén, empresa o compañia de cualquier área de desempeño pueda:</p>
+
+                        <div class="container">
+                            <div class="row row-cols-2 text-center">
+                              <div class="col">
+                                <img src="./images/" alt="rendimiento">
+                                <p class="d-inline-flex">Mejorar su rendimiento y su producción.</p>
+                              </div>
+                              <div class="col">
+                                <img src="./images/" alt="control">
+                                <p class="d-inline-flex">Tener un mejor control de sus inventarios.</p>
+                              </div>
+                              <div class="col">
+                                <img src="./images/" alt="gestion">
+                                <p class="d-inline-flex">Funciones de gestión fáciles de usar.</p>
+                              </div>
+                              <div class="col">
+                                <img src="./images/" alt="reportes">
+                                <p class="d-inline-flex">Reportes claros y completos.</p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="container mt-4">
+                        <p>En este panel principal podrá encontrar las opciones para acceder a cada modulo del sistema.</p>
+
+                        <div class="container">
+                            <div class="row  ">
+                                <div class="col justify-items-center">
+                                    <div class="card text-center card-productos justify-content-center align-items-center pt-3 w-50">
+                                        <img src="./images/productos.svg" class="card-img" alt="productos">
+                                        <div class="card-body">
+                                          <h5 class="card-title text-white">Productos</h5>
+                                          <p class="card-text"><small class="text-white">8 registrados</small></p>
+                                          <a href="#" class="btn ml-auto btn-dark">+</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col align-items-center">
+                                    <div class="card text-center card-usuarios justify-content-center align-items-center pt-3 w-50">
+                                        <img src="./images/usuarios.svg" class="card-img" alt="productos">
+                                        <div class="card-body">
+                                          <h5 class="card-title text-white">Usuarios</h5>
+                                          <p class="card-text"><small class="text-white">8 registrados</small></p>
+                                          <a href="#" class="btn ml-auto btn-dark">+</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    
+                </main>
             </div>
         </div>
     </div>

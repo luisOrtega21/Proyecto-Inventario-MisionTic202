@@ -1,3 +1,19 @@
-.navbar {
+.card-productos {
+    background-color: #CB904D;
+}
+
+.card-usuarios {
+    background-color: #086375;
+}
+
+.card-img {
+    width: 20%;
+}
+
+.card-buttons {
+    background-color: #757575;
+}
+
+.navbarTop {
     background-color: #E0E0E0;
 }
