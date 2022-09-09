@@ -1,19 +1,42 @@
-.card-productos {
-    background-color: #CB904D;
+.img_logo {
+    width: 48px;
+    height: 48px;
 }
 
-.card-usuarios {
-    background-color: #086375;
-}
-
-.card-img {
-    width: 20%;
-}
-
-.card-buttons {
+.navbar_top {
     background-color: #757575;
 }
 
-.navbarTop {
-    background-color: #E0E0E0;
+.contenedor_objetivos {
+    background-color: #EEEEEE;
 }
+
+.img_objetivos {
+    /* max-width: 45%; */
+    width: 80px;
+    height: 80px;
+}
+
+.card_productos {
+    background-color: #CB904D;
+}
+
+.card_usuarios {
+    background-color: #086375;
+}
+
+.card_img {
+    width: 48px;
+    height: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
