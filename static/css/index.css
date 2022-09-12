@@ -1,0 +1,9 @@
+.img_logo {
+    width: 32px;
+    height: 32px;
+}
+
+.nav-link.active {
+    background-color: #0d6efd;
+    border-radius: 3px;
+}
