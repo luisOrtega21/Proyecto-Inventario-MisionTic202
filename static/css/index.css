@@ -7,3 +7,14 @@
     background-color: #0d6efd;
     border-radius: 3px;
 }
+
+.card-header, .btn {
+    background-color: #498467;
+}
+
+/* @media (max-width: 576px) {
+    .row {
+        width: 390px ;
+    }
+} */
+
