@@ -30,7 +30,7 @@
                         </a>
                     </li>
                     <li class="nav-item pt-2 pt-md-0">
-                        <a href="#" class="nav-link text-center">
+                        <a href="./registrarse.html" class="nav-link text-center">
                             <img src="./images/registro.svg" class= "img-fluid me-1" alt="registro">
                             <span class="">Registrarse</span> 
                         </a>
@@ -50,11 +50,11 @@
                         <div class="card-body">
                             <form>
                                 <div class="form-floating mb-2">
-                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                                     <label for="floatingInput" class="text-muted">Email</label>
                                 </div>
-                                <div class="form-floating mb-2">
-                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                                <div class="form-floating mb-3">
+                                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                                     <label for="floatingPassword" class="text-muted">Contraseña</label>
                                   </div>
                                 <div class="checkbox mb-3">
@@ -63,17 +63,38 @@
                                         Recordar
                                     </label>
                                 </div>
-                                <button class="w-100 btn btn-lg text-white fs-6" type="submit">Ingresar</button>
+                                <button class=" w-100 btn btn-lg text-white fs-6" type="submit">Ingresar</button>
                             </form>
                         </div>
                     </div>
-                    <a href="#" class="text-decoration-none">Olvidaste tu contraseña?</a>
-                    <p>No estás registrado? <a href="#" class="text-decoration-none">Crea tu cuenta</a></p>
+                    <a class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#loginModal">Olvidaste tu contraseña?</a>
+                    <p>No estás registrado? <a href="./registrarse.html" class="text-decoration-none">Crea tu cuenta</a></p>
                 </div>
             </div>
         </div>
     </main>
 
+    <!-- MODAL -> RECUPERAR CONTRASEÑA -->
+    <div id="loginModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-white">Recuperar contraseña</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail" class="form-label">Email registrado</label>
+                            <input type="email" class="form-control" id="exampleInputEmail" placeholder="name@example.com">
+                        </div>
+                        <button type="submit" class="btn text-white">Enviar</button>  
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/index.js"></script> 
 </body>
